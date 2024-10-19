@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+header .logo {
+  margin-left: 160px;
+  padding: 27px;
+  align-items: center;
+}
+header {
+  display: flex;
+}
+header div {
+  justify-content: c space-between;
+  align-items: center;
+}
+.nav {
+  width: 30%;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+.logo {
+  width: 40%;
+}
+.section-A {
+  background-color: #f9f9ff;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-1 {
+  margin-left: 250px;
+  width: 500px;
+}
+.section-2 {
+  max-width: 100%;
+  height: auto;
+  margin-right: 200px;
+}
+.section-1.section-2 {
+  width: 50%;
+}
+.section-2 img {
+  height: 500px;
+  width: 600px;
+}
+.section-1 h5 {
+  font-weight: normal;
+}
+.section-1 h1 {
+  font-size: 50px;
+}
+.section-1 p {
+  font-size: 20px;
+  color: rgb(65, 80, 80);
+}
+.section-3 {
+  padding: 10px 20px;
+  background-color: #8393ff;
+  outline: none;
+  color: white;
+  border: 1px #8393ff;
+  cursor: pointer;
+}
+.section-3:hover {
+  background-color: #51598d;
+}
+.DIV-IMG img {
+  width: 500px;
+  height: 600px;
+  margin-left: 160px;
+}
+.div-full {
+  display: flex;
+  background-color: #f9f9ff;
+}
+.FONT {
+  margin-left: 250px;
+  width: 500px;
+  margin-top: 160px;
+}
+.FONT h5 {
+  font-weight: normal;
+}
+.FONT h1 {
+  font-size: 40px;
+}
+.FONT P {
+  font-size: 20px;
+  color: rgb(65, 80, 80);
+}
+.button {
+  padding: 8px 20px;
+  background-color: #8393ff;
+  outline: none;
+  color: white;
+  border: #51598d;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #51598d;
+}
+.logo-2 p {
+  width: 500px;
+  color: #92929e;
+}
+.logo-2 {
+  width: 100%;
+  height: 650px;
+  margin: 20px 8 0px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 50px;
+  margin-left: 60px;
+}
+.logo-2 div:hover {
+  background-color: #8393ff;
+  color: white;
+}
+.FONT-2 {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: rgba(65, 80, 80);
+}
+.FONT-2 h1 {
+  line-height: 10px;
+}
+.logo-3 {
+  padding: 191px;
+  margin: 0;
+}
+.font-2 div:hover {
+  background-color: #8393ff;
+  color: white;
+}
+.number-1 {
+  margin-top: 280px;
+  width: 100%;
+  height: 280px;
+  background-color: #8293ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  font-size: 30px;
+}
+.items {
+  text-align: center;
+}
+.items h1 {
+  line-height: 00px;
+}
+.img-1 {
+  text-align: center;
+  margin: 150px;
+}
+.img-1 h1 {
+  font-size: 50px;
+  line-height: 00px;
+}
+.img-1 p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.img-2 {
+  width: 90%;
+  height: 650px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.img-2 figure {
+  background-color: linear-gradien(40deg #8490ff 40%, #62bdfc);
+}
+.img-3 img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 50px;
+  border-radius: 40px;
+  padding-bottom: 10px;
+}
+.Plan {
+  margin-top: 500px;
+  text-align: center;
+}
+.Plan h1 {
+  font-size: 50px;
+  color: black;
+}
+.Plan p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
